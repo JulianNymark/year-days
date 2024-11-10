@@ -27,7 +27,7 @@ const Year = ({
   ];
 
   return (
-    <div className={`flex m-4 w-full ${justifyEnd ? "justify-end" : ""}`}>
+    <div className={`flex w-full ${justifyEnd ? "justify-end" : ""}`}>
       <div className="flex w-fit justify-center">
         <div className="flex flex-col items-center">
           <h1 className="text-2xl">{year}</h1>
@@ -69,6 +69,7 @@ export default function Home() {
   color: black;
   padding-inline: 20px;
   padding-block: 10px;
+  margin: 10px;
 }
 
 .my_button:hover {
